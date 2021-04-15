@@ -1,0 +1,9 @@
+[caps]
+platformName = "Android"
+deviceName = "emulator-5554"
+appPackage = "com.accenture.package"
+appActivity = ".MainActivity"
+automationName = "UiAutomator2"
+autoGrantPermissions = true
+noReset = true
+newCommandTimeout = "40000"

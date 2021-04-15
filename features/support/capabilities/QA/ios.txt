@@ -1,0 +1,7 @@
+[caps]
+platformName = "iOS"
+platformVersion = "12.1"
+deviceName = "iPhone X"
+connectHardwareKeyboard = true
+app = "features/support/app/ios/APP.app"
+noReset = true

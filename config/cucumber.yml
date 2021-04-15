@@ -1,0 +1,11 @@
+# config/cucumber.yml
+##YAML Template
+
+## Arquivo de configuração para cucumber, nesse caso, estamos configurando tres profiles para retornar variaveis de ambiente que serão utilizados no código do script (PLATFORM e ENVIRONMENT), 
+## caso no no momento da execução do cucumber não informe nenhum profile no comando, ele irá considerar o profile 'default'.
+
+android_qa: PLATFORM=android ENVIRONMENT=QA
+
+ios_qa: PLATFORM=ios ENVIRONMENT=QA
+
+default: PLATFORM=android ENVIRONMENT=QA
